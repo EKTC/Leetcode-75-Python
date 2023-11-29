@@ -29,3 +29,10 @@ Link: https://leetcode.com/problems/product-of-array-except-self/description/
 - And then calculate the postfix which is all the operands after the specified number
 - Combine them together
 - V2 is a more optimised version that mutates them in the array itself rather than seperating it
+
+# 53. Maximum Subarray
+
+Link: https://leetcode.com/problems/maximum-subarray/description/
+
+- The idea is to ignore negative prefixes as they dont contribute to producing a max sum
+- Always check when adding a number for the max sum
