@@ -5,6 +5,13 @@ Link: https://leetcode.com/problems/two-sum/
 - Idea is to check each number for its corresponding sum in a dictionary
 - If it is not there add it to the dictionary and continue
 
+# 53. Maximum Subarray
+
+Link: https://leetcode.com/problems/maximum-subarray/description/
+
+- The idea is to ignore negative prefixes as they dont contribute to producing a max sum
+- Always check when adding a number for the max sum
+
 # 121. Best Time to Buy and Sell Stock
 
 Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
@@ -13,6 +20,14 @@ Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - Based on the values we would either update the buying pointer to be the lowest amount of the two pointers
 - Or the right pointer to move
 - Calculate the profits as we iterate through
+
+# 152. Maximum Product Subarray
+
+Link: https://leetcode.com/problems/maximum-product-subarray/
+
+- We have a variable to store the final value
+- But a variable to store max and variable to store min of the current sums
+- We then check based on the 3 variables
 
 # 217. Contains Duplicate
 
@@ -29,10 +44,3 @@ Link: https://leetcode.com/problems/product-of-array-except-self/description/
 - And then calculate the postfix which is all the operands after the specified number
 - Combine them together
 - V2 is a more optimised version that mutates them in the array itself rather than seperating it
-
-# 53. Maximum Subarray
-
-Link: https://leetcode.com/problems/maximum-subarray/description/
-
-- The idea is to ignore negative prefixes as they dont contribute to producing a max sum
-- Always check when adding a number for the max sum
