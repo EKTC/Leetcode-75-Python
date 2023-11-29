@@ -1,0 +1,31 @@
+# 1. Two Sum
+
+Link: https://leetcode.com/problems/two-sum/
+
+- Idea is to check each number for its corresponding sum in a dictionary
+- If it is not there add it to the dictionary and continue
+
+# 121. Best Time to Buy and Sell Stock
+
+Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+- We setup two pointers one for buying and one for selling
+- Based on the values we would either update the buying pointer to be the lowest amount of the two pointers
+- Or the right pointer to move
+- Calculate the profits as we iterate through
+
+# 217. Contains Duplicate
+
+Link: https://leetcode.com/problems/contains-duplicate/
+
+- Iterates through the array and storing all the seen numbers in a set
+- If there is already a number in the set we can return
+
+# 238. Product of Array Except Self
+
+Link: https://leetcode.com/problems/product-of-array-except-self/description/
+
+- Idea is to calculate the prefix which is all the operands before the specified number
+- And then calculate the postfix which is all the operands after the specified number
+- Combine them together
+- V2 is a more optimised version that mutates them in the array itself rather than seperating it
