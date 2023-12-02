@@ -29,6 +29,13 @@ Link: https://leetcode.com/problems/maximum-product-subarray/
 - But a variable to store max and variable to store min of the current sums
 - We then check based on the 3 variables
 
+# 153. Find Minimum in Rotated Sorted Array
+
+Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+- A binary search that is a bit modified
+- Has more checks based on edge cases that can occur
+
 # 217. Contains Duplicate
 
 Link: https://leetcode.com/problems/contains-duplicate/
