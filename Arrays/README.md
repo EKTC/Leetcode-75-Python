@@ -5,6 +5,14 @@ Link: https://leetcode.com/problems/two-sum/
 - Idea is to check each number for its corresponding sum in a dictionary
 - If it is not there add it to the dictionary and continue
 
+# 33. Search in Rotated Sorted Array
+
+Link: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+
+- Binary search but modified again
+- Key idea is to cover the edge cases again based on whether the pivot is part of the right or left array
+- And then doing a binary search again on that to see if its left or right
+
 # 53. Maximum Subarray
 
 Link: https://leetcode.com/problems/maximum-subarray/description/
