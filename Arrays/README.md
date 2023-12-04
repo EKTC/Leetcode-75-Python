@@ -5,6 +5,15 @@ Link: https://leetcode.com/problems/two-sum/
 - Idea is to check each number for its corresponding sum in a dictionary
 - If it is not there add it to the dictionary and continue
 
+# 15. 3Sum
+
+Link: https://leetcode.com/problems/3sum/description/
+
+- Idea is similar to two sum question
+- This is where we sort the array and perform binary search to get the numbers that lead to the sum
+- However now that there is a third number we want to first pick a number as our start and then binary search for a value that can make it zero involving that zero number
+- Thus it becomes a binary search with a set a value that changes as we go iterate through the array
+
 # 33. Search in Rotated Sorted Array
 
 Link: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
