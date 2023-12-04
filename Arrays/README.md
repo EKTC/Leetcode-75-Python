@@ -9,6 +9,9 @@ Link: https://leetcode.com/problems/two-sum/
 
 Link: https://leetcode.com/problems/container-with-most-water/
 
+- Binary search once more
+- Has some conditions to check such as calculating the max area and which height is the minimum of the two
+
 # 15. 3Sum
 
 Link: https://leetcode.com/problems/3sum/description/
