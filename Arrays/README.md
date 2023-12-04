@@ -5,6 +5,10 @@ Link: https://leetcode.com/problems/two-sum/
 - Idea is to check each number for its corresponding sum in a dictionary
 - If it is not there add it to the dictionary and continue
 
+# 11. Container With Most Water
+
+Link: https://leetcode.com/problems/container-with-most-water/
+
 # 15. 3Sum
 
 Link: https://leetcode.com/problems/3sum/description/
