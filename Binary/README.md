@@ -1,3 +1,10 @@
+# 190. Reverse Bits
+
+Link: https://leetcode.com/problems/reverse-bits/
+
+- Set the bits one by one with the new order
+- Starting at the far left as we are reversing it
+
 # 191. Number of 1 Bits
 
 Link: https://leetcode.com/problems/number-of-1-bits/
