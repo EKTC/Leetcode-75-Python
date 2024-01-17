@@ -1,3 +1,19 @@
+# 55. Jump Game
+
+Link: https://leetcode.com/problems/jump-game/description/
+
+- The first solution is to do something really nice which is to always track how far you can reach
+- Thus if we ever find out our reach cannot move past the current index we can return False
+- Else we continue through and start changing our reach to be the current value or a new value based on the new index we just reached
+- The second method is similar to a greedy approach in which instead we will work in reverse
+- For this we think of it as the target or goal being the last index which we want to reach
+- But if we think about it we have to reach it from some node so we check to find the first index that can reach it
+- Now we see that the plan is not to reach the end but now reach this new index that reaches the end so we can shift our goal / target up
+- We can keep doing this till we reach the 1st index which would be 0 and return True
+- Note: Both methods above run in O(n) time unlike the DP approach
+- The last method is using DP which will take up O(n) space but also be O(n^2) in terms of time complexity
+- The gist of the method is to save whether you can continue further with the current node you are at and store that so when it comes back up again we dont have to recalculate this is super slow
+
 # 62. Unique Paths
 
 Link: https://leetcode.com/problems/unique-paths/description/
