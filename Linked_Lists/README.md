@@ -15,6 +15,14 @@ Link: https://leetcode.com/problems/merge-two-sorted-lists/
 - Use of dummy variable to keep track of the start of the list
 - Rest of the logic is comparing the two nodes from each list and seeing which one is smaller so we can add that
 
+# 23. Merge k Sorted Lists
+
+Link: https://leetcode.com/problems/merge-k-sorted-lists/description/
+
+- Idea is to use the merge two sorted list code and run it till we get one list
+- This is merge sort :x and hence will give us a time complexity of O(n logn)
+- A more brute force approach would be to append it to a single list which would mean sometimes we would have to do `n` work `n` times which is much higher than the merge sort
+
 # 141. Linked List Cycle
 
 Link: https://leetcode.com/problems/linked-list-cycle/
