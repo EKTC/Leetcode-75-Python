@@ -36,3 +36,14 @@ Link: https://leetcode.com/problems/valid-anagram/
 - Two methods
 - First method is just to sort the string with sorted and that allows you to compare the strings easily
 - Second method is to add each letter from the strings into their respective dictionaries and compare them later
+
+# 424. Longest Repeating Character Replacement
+
+Link: https://leetcode.com/problems/longest-repeating-character-replacement/description/
+
+- The method is to have a dictionary / hashmap that stores the count of letters that occur in the sliding window
+- If you have less elements that can be replaced than the given `k` variable then we can add the total window length as our longest string
+- If we realise that we cannot have replace the elements then we shift our window forward as we represent the window with TWO POINTERS
+- This results in a O(26 \* n) => O(n)
+- The second method which is similar to the first but optimised to just O(n) straight out uses an extra variable
+- This extra variable helps us keep track of the frequency of the most occurring character we need to get a higher length of string
