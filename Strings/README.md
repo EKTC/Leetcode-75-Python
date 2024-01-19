@@ -21,6 +21,16 @@ Link: https://leetcode.com/problems/group-anagrams/
 - Slower and first approach is to sort each string and sort them based on this
 - Other approach is to track how many occurences of characters are in each string and use that as the key to sort them off
 
+# 76. Minimum Window Substring
+
+Link: https://leetcode.com/problems/minimum-window-substring/description/
+
+- Two pointers setup for a sliding window
+- Have a hashmap / dict to track all the needed letters and their frequencies
+- Have a hashmap / dict to track all the needed letters and current frequencies within the window
+- Have a variable that helps track when all needed letters are fulfilled and the current window is valid
+- Minimise the window on the left stide till we have to find needed letters again an attempt to find the minimum window
+
 # 125. Valid Palindrome
 
 Link: https://leetcode.com/problems/valid-palindrome/
