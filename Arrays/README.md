@@ -75,3 +75,13 @@ Link: https://leetcode.com/problems/product-of-array-except-self/description/
 - And then calculate the postfix which is all the operands after the specified number
 - Combine them together
 - V2 is a more optimised version that mutates them in the array itself rather than seperating it
+
+# 704. Binary Search
+
+Link: https://leetcode.com/problems/binary-search/description/
+
+- Implementation of binary search a core to a lot of problems in a sense
+- The idea is that we have a left and right pointer and we shift them based on our `target`
+- We have a `mid` variable that is based off the values at the left and right pointer
+- If `mid` is bigger than `target` that means our value is to large and we shift our right pointer down to find a smaller value and vice versa for the smaller case
+- Loop till we traverse the entire array or if we find the value
