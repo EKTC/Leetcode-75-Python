@@ -85,3 +85,11 @@ Link: https://leetcode.com/problems/binary-search/description/
 - We have a `mid` variable that is based off the values at the left and right pointer
 - If `mid` is bigger than `target` that means our value is to large and we shift our right pointer down to find a smaller value and vice versa for the smaller case
 - Loop till we traverse the entire array or if we find the value
+
+# 733. Flood Fill
+
+Link: https://leetcode.com/problems/flood-fill/description/
+
+- The implementation is around a DFS, in which we recursively check each cell
+- We then modify the cell if it meets the condition otherwise we dont
+- Implementation of a visited array is possible to prevent infinite looping
