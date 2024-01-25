@@ -36,3 +36,12 @@ Link: https://leetcode.com/problems/invert-binary-tree/
 - BFS or DFS solution
 - You have to be at the respective nodes and swap them to their new positons
 - Do so till the entire tree is traversed
+
+# 235. Lowest Common Ancestor of a Binary Search Tree
+
+Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
+
+- We know its a binary tree so there are properties we need to remember such that the left side of a node value is smaller than it and the right side is larger than it
+- This simplifies it to us checking for cases where its either both on the left side or right side
+- The other case being they are split left and right side
+- Time complexity is `log n` where `n` is the height of the tree
