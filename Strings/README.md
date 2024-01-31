@@ -6,6 +6,16 @@ Link: https://leetcode.com/problems/longest-substring-without-repeating-characte
 - We can keep track of seen characters with a set / array
 - Cool solution that uses a dictionary instead to keep track that means we do not need another loop :D
 
+# 5. Longest Palindromic Substring
+
+Link: https://leetcode.com/problems/longest-palindromic-substring/description/
+
+- First method is to use two pointers
+- Choose a starting letter and expand left and right checking if its a valid palindrome, do so with every letter
+- Note for this there is an odd and even case we have to deal with
+- Second approach is a Bottom Up DP method where we fill out our DP table from bottom to top and check if the previous combinations are palindromes to check if our current substring is one
+- Both approaches are `O(n^2)` time
+
 # 20. Valid Parentheses
 
 Link: https://leetcode.com/problems/valid-parentheses/
