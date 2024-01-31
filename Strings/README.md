@@ -67,3 +67,10 @@ Link: https://leetcode.com/problems/longest-repeating-character-replacement/desc
 - This results in a O(26 \* n) => O(n)
 - The second method which is similar to the first but optimised to just O(n) straight out uses an extra variable
 - This extra variable helps us keep track of the frequency of the most occurring character we need to get a higher length of string
+
+# 647. Palindromic Substrings
+
+Link: https://leetcode.com/problems/palindromic-substrings/description/
+
+- This question is very very similar to the question longest palindromic strings BUT instead of finding the longest string we try to find the number of palindromes
+- All the same techniques work as we are always just filtering through palindromes in the other question
