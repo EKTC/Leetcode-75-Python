@@ -45,3 +45,11 @@ Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tr
 - This simplifies it to us checking for cases where its either both on the left side or right side
 - The other case being they are split left and right side
 - Time complexity is `log n` where `n` is the height of the tree
+
+# 572. Subtree of Another Tree
+
+Link: https://leetcode.com/problems/subtree-of-another-tree/description/
+
+- The idea is that we can first find a matching node to the root of the subtree
+- And after that we can compare the trees side by side
+- Using a DFS and recursion is super helpful here
