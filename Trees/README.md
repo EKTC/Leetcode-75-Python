@@ -39,6 +39,13 @@ Link: https://leetcode.com/problems/binary-tree-maximum-path-sum/
 - We calculate the subtrees path and then add on the max to the root node
 - Since we cannot split we have to check which path is the max or that neither is and the node is not worth adding
 
+# 208. Implement Trie (Prefix Tree)
+
+Link: https://leetcode.com/problems/implement-trie-prefix-tree/description/
+
+- To implement a trie its like a tree that has multiple branches and then each has its own children
+- We have a variable to mark where a word ends to ensure checking that a word is actually added into the trie
+
 # 226. Invert Binary Tree
 
 Link: https://leetcode.com/problems/invert-binary-tree/
