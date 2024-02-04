@@ -22,6 +22,16 @@ Link: https://leetcode.com/problems/same-tree/
 - A DFS solution would be something similar but with a stack instead -> honestly not intuitive to me
 - Finally a recursive DFS solution that aims to just solve the subproblem on which subtree is bigger and add 1 progressively till the end
 
+# 105. Construct Binary Tree from Preorder and Inorder Traversal
+
+Link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
+
+- The idea is that we need to use both preorder and inorder traversal to determine the left and right subtrees of a root node
+- We recursively add new root nodes and then determine its left and right subtrees
+- Note 1: Preorder Traversal means that the root node is first followed by all the nodes from the left subtree of root and then followed by all the nodes from the right subtree
+- Note 2: Inorder Traversal means that its all the left subtree nodes then the root node and then all the right subtree nodes
+- Hence we can use these ideas to determine whats the root node and what the left / right subtrees are
+
 # 124. Binary Tree Maximum Path Sum
 
 Link: https://leetcode.com/problems/binary-tree-maximum-path-sum/
