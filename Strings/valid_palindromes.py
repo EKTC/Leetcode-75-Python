@@ -53,3 +53,12 @@ class Solution:
         s_final = "".join(s_final.split()) 
         s_final = s_final.lower() 
         return s_final == s_final[::-1]
+
+    # ============== Solution 4 ================== #
+    # Uses regex instead to filter
+    def isPalindromeV4(self, s: str) -> bool:
+        import re
+
+        s1 = re.sub(r'[^a-zA-Z0-9]', '', s)
+        s1 = s1.lower()
+        return s1 == s1[::-1]
