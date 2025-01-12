@@ -21,6 +21,7 @@ Link: https://leetcode.com/problems/longest-palindromic-substring/description/
 Link: https://leetcode.com/problems/valid-parentheses/
 
 - Have a dictionary / hashmap to determine if its a closing brace to allow us to find its corresponding open brace
+- Popping off the elements to slowly reduce the amount of parentheses to manage as we find pairs
 - Loop through till the entire stack is matched thus meaning its possible else its false
 
 # 49. Group Anagrams
