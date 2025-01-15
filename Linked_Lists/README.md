@@ -48,3 +48,11 @@ Link: https://leetcode.com/problems/reverse-linked-list/
 - First pointer holds the current node
 - Second pointer holds the previous node
 - Make current point to previous and repeat
+
+# 876. Middle of the Linked List
+
+Link: https://leetcode.com/problems/middle-of-the-linked-list/description/
+
+- Have a slow and fast pointer
+- The fast pointer will move at twice the speed meaning it would get to the end of the list faster
+- Meaning the slow pointer will be halfway through only which is the middle
