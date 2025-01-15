@@ -76,6 +76,15 @@ Link: https://leetcode.com/problems/product-of-array-except-self/description/
 - Combine them together
 - V2 is a more optimised version that mutates them in the array itself rather than seperating it
 
+# 278. First Bad Version
+
+Link: https://leetcode.com/problems/first-bad-version/description/
+
+- So we use binary search but with some extra context we can make it faster and skip through some of the values
+- The key is to track with the left and right pointers and shifting them up when needed to reduce the search space
+- For this case if its a bad version we know we want an earlier one if possible so we can shift the right pointer back
+- And the opposite for the left one which is more tracking the good versions
+
 # 704. Binary Search
 
 Link: https://leetcode.com/problems/binary-search/description/
