@@ -32,6 +32,15 @@ Link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inor
 - Note 2: Inorder Traversal means that its all the left subtree nodes then the root node and then all the right subtree nodes
 - Hence we can use these ideas to determine whats the root node and what the left / right subtrees are
 
+# 110. Balanced Binary Tree
+
+Link: https://leetcode.com/problems/balanced-binary-tree/description/
+
+- The more basic solution which is `n^2` time is to do a DFS at each node comparing the heights at each time
+- The more efficient solution which is `n` time is to do a **BOTTOM-UP** solution
+- The idea is that we just calculate the most lowest leafs of the tree and record their height slowly building up
+- The solution uses in this case 2 variables to track that to determine if its a balanced at each step and the height to reuse
+
 # 124. Binary Tree Maximum Path Sum
 
 Link: https://leetcode.com/problems/binary-tree-maximum-path-sum/
