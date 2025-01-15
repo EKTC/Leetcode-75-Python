@@ -30,6 +30,7 @@ Link: https://leetcode.com/problems/linked-list-cycle/
 - Idea is using Flyod's Tortoise and Hare
 - This is when if we have a pointer that is moving through the list twice as fast, it will reach null eventually before the slow one
 - And when it does not that means that its cycled possibly somewhere
+- Note that with the fast pointer we would want to check the next and the next next node to see if its a valid path otherwise we would have some edge cases or undefined behaviour!!
 
 # 143. Reorder List
 
