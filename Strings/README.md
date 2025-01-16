@@ -65,6 +65,15 @@ Link: https://leetcode.com/problems/ransom-note/description/
 - The idea is to grab the count of the letters and compare them to see if possible
 - This file has 2 different methods with similar time complexities
 
+# 409. Longest Palindrome
+
+Link: https://leetcode.com/problems/longest-palindrome/description/
+
+- Use a hashmap / hashset to store the values
+- We check for even occurences as those always form a palindrome to add to our length
+- Make sure to check the odd case which would extend our palindrome by 1 as we slot it into the middle
+- Interesting use of a set to track pairs in this question
+
 # 424. Longest Repeating Character Replacement
 
 Link: https://leetcode.com/problems/longest-repeating-character-replacement/description/
