@@ -60,6 +60,13 @@ Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 - A binary search that is a bit modified
 - Has more checks based on edge cases that can occur
 
+# 169. Majority Element
+
+Link: https://leetcode.com/problems/majority-element/description/
+
+- Use a set to get all the unique elements
+- Loop through to find the majority element which was a given condition
+
 # 217. Contains Duplicate
 
 Link: https://leetcode.com/problems/contains-duplicate/
