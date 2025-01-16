@@ -1,3 +1,11 @@
+# 67. Add Binary
+
+Link: https://leetcode.com/problems/add-binary/description/
+
+- When adding binary bits the main thing is the carry bit when we add two ones
+- We need to track and account for that in each of the steps of addition
+- And to mock how binary is stored remembered if a string is not long enough we can just pad with zeroes mmm
+
 # 190. Reverse Bits
 
 Link: https://leetcode.com/problems/reverse-bits/
