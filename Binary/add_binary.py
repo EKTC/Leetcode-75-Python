@@ -14,12 +14,14 @@ def addBinary(self, a: str, b: str) -> str:
         digitA = int(a[i]) if i < len(a) else 0
         digitB = int(b[i]) if i < len(b) else 0
 
+        # Total is for helping calculate if we need the carry
         total = digitA + digitB + carry
-        final = str(total % 2) + final
+        char = str(total % 2)
+        final = char + final
         carry = total // 2
     
     if carry:
         final = "1" + final
     
     return final
-        
+    
