@@ -72,6 +72,14 @@ Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tr
 - The other case being they are split left and right side
 - Time complexity is `log n` where `n` is the height of the tree
 
+# 543. Diameter of Binary Tree
+
+Link: https://leetcode.com/problems/diameter-of-binary-tree/description/
+
+- We have a global variable / member variable of the class
+- We do DFS but on both sides to get the max path of each on that node
+- Update and recurse accordingly
+
 # 572. Subtree of Another Tree
 
 Link: https://leetcode.com/problems/subtree-of-another-tree/description/
