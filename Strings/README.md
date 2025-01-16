@@ -58,6 +58,13 @@ Link: https://leetcode.com/problems/valid-anagram/
 - First method is just to sort the string with sorted and that allows you to compare the strings easily
 - Second method is to add each letter from the strings into their respective dictionaries and compare them later
 
+# 383. Ransom Note
+
+Link: https://leetcode.com/problems/ransom-note/description/
+
+- The idea is to grab the count of the letters and compare them to see if possible
+- This file has 2 different methods with similar time complexities
+
 # 424. Longest Repeating Character Replacement
 
 Link: https://leetcode.com/problems/longest-repeating-character-replacement/description/
